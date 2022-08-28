@@ -1,0 +1,89 @@
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2018/04/15/18/11/paper-3322316_960_720.png);
+    width: 100%;
+    margin: 0;
+    font-size: sans-serif;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    text-align: justify;
+}
+
+.form {
+    width: 80%;
+    background-image: url(https://cdn.pixabay.com/photo/2015/10/17/17/15/background-992858_960_720.png);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+hr {
+    height: 2px;
+    background-color: blue;
+    border-color: blue;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+textarea{
+    background-color: antiquewhite;
+    color: white;
+    margin: 10px 0 0 0;
+    width: 100%;
+}
+
+input[type="submit"]{
+    display: block;
+    width: 50%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: darkgreen;
+    color: white;
+    min-width: 300px;
+}
+
+#title, #description {
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    
+}
+
+a{
+    color: white;
+}
+
+a:visited{
+color: black;
+}
+
+a:hover{
+    color: aqua;
+}
+
+a:active{
+    color: white;
+}
+
+input{
+    margin-left: 5px;
+    
+}
+
+input[id="number"]{
+    width: 150px;
+}
+
+.inline{
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
